@@ -7,7 +7,7 @@ function changeMe(arr) {
     for (let i = 0; i < arr.length; i++) {
         str =i+1 + ". " + arr[i][0] + " " + arr[i][1] + ":"
         obj = {
-            firstname: arr[i][0],
+            firstName: arr[i][0],
             lastName: arr[i][1],
             gender: arr[i][2],
         }
