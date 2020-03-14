@@ -1,12 +1,12 @@
 function cariMedian(arr) {
 
-    // for(var i = 0; i<arr.length;i++){
-    //     for (var j = 0; j < arr.length; j++) {
-    //         if(arr[j] > arr[j+1]){
-    //             [arr[j],arr[j+1]] = [arr[j+1],arr[j]]
-    //         }
-    //     }
-    // }
+     for(var i = 0; i<arr.length;i++){
+         for (var j = 0; j < arr.length; j++) {
+             if(arr[j] > arr[j+1]){
+                 [arr[j],arr[j+1]] = [arr[j+1],arr[j]]
+             }
+         }
+     }
         if(arr.length % 2 == 0){
             var genap = (arr[arr.length / 2] + arr[arr.length / 2 - 1]) / 2;
             return genap
